@@ -9,6 +9,8 @@ import UIKit
 
 class MedicalInfoViewController: UIViewController {
 
+    @IBOutlet weak var periodHeader: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

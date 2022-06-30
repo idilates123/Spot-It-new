@@ -9,8 +9,8 @@ import UIKit
 
 class SeekHelpViewController: UIViewController {
     
-    
     @IBOutlet weak var seekHelpHeader: UIImageView!
+    
     
     
     override func viewDidLoad() {
