@@ -9,6 +9,10 @@ import UIKit
 
 class LocalResourcesViewController: UIViewController {
 
+    @IBOutlet weak var localHeader: UILabel!
+    
+    @IBOutlet weak var localInfo: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

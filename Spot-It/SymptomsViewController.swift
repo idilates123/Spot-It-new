@@ -8,6 +8,8 @@
 import UIKit
 
 class SymptomsViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

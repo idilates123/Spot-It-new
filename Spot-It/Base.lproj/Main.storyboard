@@ -71,15 +71,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pzt-WZ-xCX">
-                                <rect key="frame" x="162" y="346" width="93" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Symptoms"/>
-                                <connections>
-                                    <segue destination="ve3-7r-A2T" kind="show" id="eT4-Lb-STr"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTE-AV-pum">
                                 <rect key="frame" x="143" y="288" width="130" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -90,16 +81,25 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMI-aY-WSc">
-                                <rect key="frame" x="158" y="232" width="100" height="31"/>
+                                <rect key="frame" x="136" y="232" width="144" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Period Help"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Treat your Cramps"/>
                                 <connections>
                                     <segue destination="cKx-Z1-smC" kind="show" id="i6W-G4-miU"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o37-3w-Zc6">
+                                <rect key="frame" x="143" y="338" width="144" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="gray" title="When to seek help"/>
+                                <connections>
+                                    <segue destination="ve3-7r-A2T" kind="show" id="v0x-d4-Bcr"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4l-Gb-WGC">
-                                <rect key="frame" x="168" y="406" width="78" height="31"/>
+                                <rect key="frame" x="168" y="394" width="78" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Hotlines"/>
@@ -117,21 +117,50 @@
             </objects>
             <point key="canvasLocation" x="35" y="822"/>
         </scene>
-        <!--Symptoms View Controller-->
+        <!--Seek Help View Controller-->
         <scene sceneID="X4M-IV-nGa">
             <objects>
-                <viewController id="ve3-7r-A2T" customClass="SymptomsViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ve3-7r-A2T" customClass="SeekHelpViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wik-2d-3DJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z6I-A1-Xlu">
+                                <rect key="frame" x="87" y="72" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuh-e8-tl4">
+                                <rect key="frame" x="35" y="250" width="345" height="530"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">-You’re worried that you might be pregnant because you’ve had unprotected sex and missed your period.
+-Your period is so heavy that you have to change maxi pads or super tampons every hour.
+-Your period lasts much longer than usual, or longer than 7 days.  
+-You're light-headed, dizzy, or your pulse is racing.
+-You’re 16 years old and still haven’t gotten your period.
+-You have severe pain before or during your period.
+-You have unusual bleeding between periods.
+-You suddenly feel sick or get a fever when using a tampon.
+-Your periods or PMS keep you from your normal day-to-day activities.
+-Your periods stop or suddenly become irregular.
+-Your period comes more often than every 21 days or less often than every 45 days.
+-You get very anxious or depressed around the time you get your period.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="hSO-KW-3Mk"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ga6-ox-8Qy"/>
+                    <connections>
+                        <outlet property="seekHelpHeader" destination="z6I-A1-Xlu" id="wOL-9E-ky6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gij-bL-2cp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="429" y="1592"/>
+            <point key="canvasLocation" x="456.52173913043481" y="1655.3571428571429"/>
         </scene>
         <!--Local Resources View Controller-->
         <scene sceneID="UFg-K7-R1J">
@@ -141,22 +170,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hpy-Do-xsu">
-                                <rect key="frame" x="0.0" y="0.0" width="86" height="58"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wWc-LR-cAi">
+                                <rect key="frame" x="65" y="103" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="&lt;">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="F2C-og-4Fc" kind="show" id="oSn-L8-NDD"/>
-                                </connections>
-                            </button>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p6y-K3-LUN">
+                                <rect key="frame" x="65" y="103" width="307" height="644"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Health care for the Homeless at Unity : https://www.unityhealthcare.org/services/homeless-services
+Obstetrics and Gynaecology clinics : https://www.unityhealthcare.org/services/homeless-services
+Planned Parenthoods: 
+- Brentwood health center
+- Upper Cardozo Helath Center
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PVJ-yq-v1v"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="QNE-i7-rB8"/>
+                    <connections>
+                        <outlet property="localHeader" destination="p6y-K3-LUN" id="WIF-uP-VYI"/>
+                        <outlet property="localInfo" destination="p6y-K3-LUN" id="DtM-9H-4ul"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yve-5W-IGT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -169,14 +208,41 @@
                     <view key="view" contentMode="scaleToFill" id="YVD-gU-qQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5uj-Z7-GoZ">
+                                <rect key="frame" x="87" y="56" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-pi-75h">
+                                <rect key="frame" x="35" y="182" width="334" height="590"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Over-the-counter pain medicine like ibuprofen (Advil), naproxen (Aleve), or acetaminophen (Tylenol). Always follow the instructions on the bottle. -Talk with your doctor before taking pain medication if you have an allergy to aspirin or severe asthma.
+-Exercise.
+-Put a heating pad on your belly or lower back.
+-Take a hot bath.
+-Rest.
+-Hormonal birth control (like the pill, patch, ring, implant, and hormonal IUD).
+-Acupuncture and acupressure.
+-Transcutaneous electric nerve stimulation (TENS) is — a therapy that uses mild electric currents to stimulate your nerves to relieve pain.
+-Certain vitamins and herbs like vitamin B1, fish oil, fenugreek, ginger, valerian, zataria, and zinc sulfate.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ufh-em-IRm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="LrJ-fB-J0t"/>
+                    <connections>
+                        <outlet property="periodHeader" destination="5uj-Z7-GoZ" id="1eg-i3-wBj"/>
+                        <outlet property="periodInfo" destination="eWx-pi-75h" id="I8k-l8-abr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4S-u4-Id1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1168" y="1584"/>
+            <point key="canvasLocation" x="-1168.1159420289855" y="1583.7053571428571"/>
         </scene>
         <!--Hotlines View Controller-->
         <scene sceneID="XJ2-ao-x7l">
@@ -185,14 +251,46 @@
                     <view key="view" contentMode="scaleToFill" id="8z4-ww-47p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="100" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b4e-In-QXL">
+                                <rect key="frame" x="29" y="231" width="374" height="476"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">-Office on Women’s Health Helpline: 1-800-994-9662 
+-Breastfeeding Helpline: 1-800-994-9662
+-Food Stamp Assistance: 855-635-4370
+-USDA Hunger Hotline: 1-866-3-HUNGRY
+-US/Canada Emergency Number: 911
+-Planned Parenthood Sexual Health Counseling &amp; Referral Hotline: 617.616.1616 and 800.258.4448-
+-Crisis Text Line: 741741
+-National Suicide Prevention Lifeline (1-800-273-TALK)
+-National Alliance on Mental Illness NAMI HelpLine: 1-800-950-6264 or text NAMI to 741-741
+Crisis Support Services national helpline: 800-273-8255
+-Teen Line for youth in need of support: 800-852-8336
+-Teen Line for youth in need of support: 800-852-8336 or text TEEN to 839863
+-Boys Town crisis hotline for girls and boys: 800-448-3000 or text VOICE to 20121
+-Thursday’s Child National Helpline for teens and young adults: 800-USA-KIDS (800-872-5437)
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NZs-ej-eVq">
+                                <rect key="frame" x="96" y="44" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="PPm-0V-Uhh"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="X1k-Fr-N44"/>
+                    <connections>
+                        <outlet property="hotlinesHeader" destination="NZs-ej-eVq" id="cRc-H5-Ogd"/>
+                        <outlet property="hotlinesInfo" destination="b4e-In-QXL" id="y0G-e4-zcl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyS-P1-14D" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1186" y="1584"/>
+            <point key="canvasLocation" x="1185.5072463768117" y="1583.7053571428571"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="EFO-S7-q81">
@@ -211,9 +309,6 @@
             <point key="canvasLocation" x="1935" y="98"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="oSn-L8-NDD"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

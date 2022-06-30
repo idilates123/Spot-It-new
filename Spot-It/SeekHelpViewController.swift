@@ -1,17 +1,17 @@
 //
-//  HotlinesViewController.swift
+//  SeekHelpViewController.swift
 //  Spot-It
 //
-//  Created by Jasmine Ma on 6/29/22.
+//  Created by Shilpy Bansal on 01/07/22.
 //
 
 import UIKit
 
-class HotlinesViewController: UIViewController {
-
-    @IBOutlet weak var hotlinesHeader: UIImageView!
+class SeekHelpViewController: UIViewController {
     
-    @IBOutlet weak var hotlinesInfo: UILabel!
+    
+    @IBOutlet weak var seekHelpHeader: UIImageView!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
