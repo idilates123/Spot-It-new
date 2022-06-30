@@ -117,10 +117,10 @@
             </objects>
             <point key="canvasLocation" x="35" y="822"/>
         </scene>
-        <!--View Controller-->
+        <!--Symptoms View Controller-->
         <scene sceneID="X4M-IV-nGa">
             <objects>
-                <viewController id="ve3-7r-A2T" sceneMemberID="viewController">
+                <viewController id="ve3-7r-A2T" customClass="SymptomsViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wik-2d-3DJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -133,10 +133,10 @@
             </objects>
             <point key="canvasLocation" x="429" y="1592"/>
         </scene>
-        <!--View Controller-->
+        <!--Local Resources View Controller-->
         <scene sceneID="UFg-K7-R1J">
             <objects>
-                <viewController id="Ecu-cW-ieT" sceneMemberID="viewController">
+                <viewController id="Ecu-cW-ieT" customClass="LocalResourcesViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="SXZ-u9-ffl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -162,21 +162,13 @@
             </objects>
             <point key="canvasLocation" x="-352.17391304347831" y="1583.7053571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Period Help View Controller-->
         <scene sceneID="B9b-3a-I8f">
             <objects>
-                <viewController id="cKx-Z1-smC" sceneMemberID="viewController">
+                <viewController id="cKx-Z1-smC" customClass="PeriodHelpViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YVD-gU-qQI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bAQ-p8-EaN">
-                                <rect key="frame" x="188" y="178" width="67" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ufh-em-IRm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -186,10 +178,10 @@
             </objects>
             <point key="canvasLocation" x="-1168" y="1584"/>
         </scene>
-        <!--View Controller-->
+        <!--Hotlines View Controller-->
         <scene sceneID="XJ2-ao-x7l">
             <objects>
-                <viewController id="CEw-PR-r1M" sceneMemberID="viewController">
+                <viewController id="CEw-PR-r1M" customClass="HotlinesViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8z4-ww-47p">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -205,7 +197,7 @@
         <!--View Controller-->
         <scene sceneID="EFO-S7-q81">
             <objects>
-                <viewController id="wQb-GX-fvu" sceneMemberID="viewController">
+                <viewController id="wQb-GX-fvu" customClass="ViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ous-gF-u3W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
