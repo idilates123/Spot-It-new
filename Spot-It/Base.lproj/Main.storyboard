@@ -25,7 +25,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Locations">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="1" green="0.3632321736377081" blue="0.063042215331617468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -37,7 +37,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Medical Info">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="1" green="0.36323217359999999" blue="0.063042215329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
@@ -173,7 +173,7 @@
 -Your period comes more often than every 21 days or less often than every 45 days.
 -You get very anxious or depressed around the time you get your period.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.14675716629999999" green="0.28730430309999999" blue="0.29592824569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -215,7 +215,7 @@ Planned Parenthoods:
 - Brentwood health center
 - Upper Cardozo Helath Center
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.14675716629999999" green="0.28730430309999999" blue="0.29592824569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -250,7 +250,7 @@ Planned Parenthoods:
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="200" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eWx-pi-75h">
-                                <rect key="frame" x="35" y="126" width="345" height="590"/>
+                                <rect key="frame" x="35" y="143" width="345" height="590"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">-Over-the-counter pain medicine like ibuprofen (Advil), naproxen (Aleve), or acetaminophen (Tylenol). Always follow the instructions on the bottle. -Talk with your doctor before taking pain medication if you have an allergy to aspirin or severe asthma.
 -Exercise.
@@ -262,7 +262,7 @@ Planned Parenthoods:
 -Transcutaneous electric nerve stimulation (TENS) is — a therapy that uses mild electric currents to stimulate your nerves to relieve pain.
 -Certain vitamins and herbs like vitamin B1, fish oil, fenugreek, ginger, valerian, zataria, and zinc sulfate.
 </string>
-                                <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.14675716629999999" green="0.28730430309999999" blue="0.29592824569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -314,7 +314,7 @@ Crisis Support Services national helpline: 800-273-8255
 -Boys Town crisis hotline for girls and boys: 800-448-3000 or text VOICE to 20121
 -Thursday’s Child National Helpline for teens and young adults: 800-USA-KIDS (800-872-5437)
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Galvji" family="Galvji" pointSize="18"/>
                                 <color key="textColor" red="0.14675716629999999" green="0.28730430309999999" blue="0.29592824569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -335,7 +335,6 @@ Crisis Support Services national helpline: 800-273-8255
         <!--Maps View Controller-->
         <scene sceneID="EFO-S7-q81">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V5z-NV-f7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="wQb-GX-fvu" customClass="MapsViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ous-gF-u3W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -359,6 +358,7 @@ Crisis Support Services national helpline: 800-273-8255
                         <outlet property="myWebView" destination="cNl-ZN-7eL" id="QNV-Gn-nbR"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V5z-NV-f7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1934.7826086956522" y="97.767857142857139"/>
         </scene>
