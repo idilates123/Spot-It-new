@@ -21,10 +21,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKr-YD-2v0">
-                                <rect key="frame" x="120" y="482" width="174" height="89"/>
+                                <rect key="frame" x="89" y="469" width="237" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Locations">
+                                <buttonConfiguration key="configuration" style="filled" title="Assistance Locations">
                                     <fontDescription key="titleFontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="1" green="0.3632321736377081" blue="0.063042215331617468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
@@ -32,8 +32,12 @@
                                     <segue destination="wQb-GX-fvu" kind="show" id="HR0-Sc-o9A"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spot It! (1)" translatesAutoresizingMaskIntoConstraints="NO" id="O7l-kL-ifg">
+                                <rect key="frame" x="-74" y="0.0" width="563" height="461"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dV-Wo-38g">
-                                <rect key="frame" x="120" y="616" width="174" height="89"/>
+                                <rect key="frame" x="89" y="586" width="237" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Medical Info">
@@ -44,10 +48,6 @@
                                     <segue destination="F2C-og-4Fc" kind="show" id="4Oz-9M-N1r"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spot It! (1)" translatesAutoresizingMaskIntoConstraints="NO" id="O7l-kL-ifg">
-                                <rect key="frame" x="-74" y="0.0" width="563" height="461"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
