@@ -16,12 +16,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BGCurl" translatesAutoresizingMaskIntoConstraints="NO" id="GLs-FX-ARZ">
+                                <rect key="frame" x="-36" y="-1103" width="508" height="3103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKr-YD-2v0">
                                 <rect key="frame" x="120" y="482" width="174" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Locations">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="1" green="0.3632321736377081" blue="0.063042215331617468" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="wQb-GX-fvu" kind="show" id="HR0-Sc-o9A"/>
@@ -33,13 +38,14 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Medical Info">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="1" green="0.36323217359999999" blue="0.063042215329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="F2C-og-4Fc" kind="show" id="4Oz-9M-N1r"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spot_It_-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="O7l-kL-ifg">
-                                <rect key="frame" x="-74" y="28" width="563" height="461"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Spot It! (1)" translatesAutoresizingMaskIntoConstraints="NO" id="O7l-kL-ifg">
+                                <rect key="frame" x="-74" y="0.0" width="563" height="461"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -63,45 +69,53 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTE-AV-pum">
-                                <rect key="frame" x="143" y="288" width="130" height="31"/>
+                                <rect key="frame" x="112" y="293" width="188" height="60"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Local Resources"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Local Resources">
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="Ecu-cW-ieT" kind="show" id="V7E-uK-HWu"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UMI-aY-WSc">
-                                <rect key="frame" x="136" y="232" width="144" height="31"/>
+                                <rect key="frame" x="112" y="219" width="192" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Treat your Cramps"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Treat your Cramps">
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="cKx-Z1-smC" kind="show" id="i6W-G4-miU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o37-3w-Zc6">
-                                <rect key="frame" x="143" y="338" width="144" height="31"/>
+                                <rect key="frame" x="112" y="369" width="188" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="When to seek help"/>
+                                <buttonConfiguration key="configuration" style="gray" title="When to seek help">
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="ve3-7r-A2T" kind="show" id="v0x-d4-Bcr"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periods" translatesAutoresizingMaskIntoConstraints="NO" id="EAl-eO-FtL">
+                                <rect key="frame" x="88" y="44" width="237" height="135"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4l-Gb-WGC">
-                                <rect key="frame" x="168" y="394" width="78" height="31"/>
+                                <rect key="frame" x="112" y="449" width="188" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Hotlines"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Hotlines">
+                                    <fontDescription key="titleFontDescription" name="HiraginoSans-W6" family="Hiragino Sans" pointSize="13"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="CEw-PR-r1M" kind="show" id="vIG-5l-V1u"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="periods" translatesAutoresizingMaskIntoConstraints="NO" id="EAl-eO-FtL">
-                                <rect key="frame" x="88" y="44" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="lVs-U2-byd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -113,7 +127,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c8I-M1-srB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="822"/>
+            <point key="canvasLocation" x="34.782608695652179" y="821.65178571428567"/>
         </scene>
         <!--Seek Help View Controller-->
         <scene sceneID="X4M-IV-nGa">
@@ -126,7 +140,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="300" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iuh-e8-tl4">
                                 <rect key="frame" x="35" y="250" width="345" height="530"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">-You’re worried that you might be pregnant because you’ve had unprotected sex and missed your period.
+                                <string key="text">-You’re worried that you might be pregnant because you’ve had unprotected sex and missed your period.
 -Your period is so heavy that you have to change maxi pads or super tampons every hour.
 -Your period lasts much longer than usual, or longer than 7 days.  
 -You're light-headed, dizzy, or your pulse is racing.
@@ -138,7 +152,7 @@
 -Your periods stop or suddenly become irregular.
 -Your period comes more often than every 21 days or less often than every 45 days.
 -You get very anxious or depressed around the time you get your period.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -290,25 +304,40 @@ Crisis Support Services national helpline: 800-273-8255
             </objects>
             <point key="canvasLocation" x="1185.5072463768117" y="1583.7053571428571"/>
         </scene>
-        <!--View Controller-->
+        <!--Maps View Controller-->
         <scene sceneID="EFO-S7-q81">
             <objects>
-                <viewController id="wQb-GX-fvu" customClass="ViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V5z-NV-f7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <viewController id="wQb-GX-fvu" customClass="MapsViewController" customModule="Spot_It" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ous-gF-u3W">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cNl-ZN-7eL">
+                                <rect key="frame" x="20" y="20" width="374" height="788"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="N6N-Hb-47j"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="KvS-II-to1"/>
+                    <connections>
+                        <outlet property="myWebView" destination="cNl-ZN-7eL" id="QNV-Gn-nbR"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="V5z-NV-f7h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1935" y="98"/>
+            <point key="canvasLocation" x="1934.7826086956522" y="97.767857142857139"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Spot_It_-removebg-preview" width="500" height="500"/>
+        <image name="BGCurl" width="1080" height="1920"/>
+        <image name="Spot It! (1)" width="500" height="500"/>
         <image name="hotlines-removebg-preview" width="788" height="317"/>
         <image name="local_resources-removebg-preview" width="680" height="367"/>
         <image name="periods" width="732" height="337"/>

@@ -11,6 +11,7 @@
 		3206E887286CA869007F950A /* PeriodHelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206E886286CA869007F950A /* PeriodHelpViewController.swift */; };
 		3206E889286CA87C007F950A /* LocalResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206E888286CA87C007F950A /* LocalResourcesViewController.swift */; };
 		3206E88D286CA89F007F950A /* HotlinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3206E88C286CA89F007F950A /* HotlinesViewController.swift */; };
+		32CF388B286E7ADA00D71ADA /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32CF388A286E7ADA00D71ADA /* MapsViewController.swift */; };
 		32E768B7286B8B1400DF00E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E768B6286B8B1400DF00E5 /* AppDelegate.swift */; };
 		32E768B9286B8B1400DF00E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E768B8286B8B1400DF00E5 /* SceneDelegate.swift */; };
 		32E768BB286B8B1400DF00E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E768BA286B8B1400DF00E5 /* ViewController.swift */; };
@@ -46,6 +47,7 @@
 		3206E886286CA869007F950A /* PeriodHelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriodHelpViewController.swift; sourceTree = "<group>"; };
 		3206E888286CA87C007F950A /* LocalResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalResourcesViewController.swift; sourceTree = "<group>"; };
 		3206E88C286CA89F007F950A /* HotlinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlinesViewController.swift; sourceTree = "<group>"; };
+		32CF388A286E7ADA00D71ADA /* MapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsViewController.swift; sourceTree = "<group>"; };
 		32E768B3286B8B1400DF00E5 /* Spot-It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spot-It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E768B6286B8B1400DF00E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32E768B8286B8B1400DF00E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				3206E888286CA87C007F950A /* LocalResourcesViewController.swift */,
 				3206E886286CA869007F950A /* PeriodHelpViewController.swift */,
 				97BD31B5286E4E4C00AA15A7 /* SeekHelpViewController.swift */,
+				32CF388A286E7ADA00D71ADA /* MapsViewController.swift */,
 				32E768BC286B8B1400DF00E5 /* Main.storyboard */,
 				32E768C2286B8B1600DF00E5 /* Assets.xcassets */,
 				32E768C4286B8B1600DF00E5 /* LaunchScreen.storyboard */,
@@ -281,6 +284,7 @@
 				32E768BB286B8B1400DF00E5 /* ViewController.swift in Sources */,
 				3206E885286CA6B3007F950A /* MedicalInfoViewController.swift in Sources */,
 				32E768B7286B8B1400DF00E5 /* AppDelegate.swift in Sources */,
+				32CF388B286E7ADA00D71ADA /* MapsViewController.swift in Sources */,
 				32E768C1286B8B1400DF00E5 /* Spot_It.xcdatamodeld in Sources */,
 				3206E887286CA869007F950A /* PeriodHelpViewController.swift in Sources */,
 				32E768B9286B8B1400DF00E5 /* SceneDelegate.swift in Sources */,
